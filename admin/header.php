@@ -21,8 +21,8 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link menu-home" aria-current="page" href="http://localhost/Bunga/admins/index.php">Home</a>
-        <a class="nav-link menu-category" href="http://localhost/Bunga/admins/kategori.php">Category</a>
-        <a class="nav-link menu-binatang" href="http://localhost/Bunga/admins/binatang.php">Binatang</a>
+        <a class="nav-link menu-category" href="http://localhost/Bunga/admins/kategori.php">Kategori</a>
+        <a class="nav-link menu-binatang" href="http://localhost/Bunga/admins/bunga.php">Bunga</a>
         <a class="nav-link" href="http://localhost/Bunga/admin/logout.php">logout</a>
       </div>
     </div>

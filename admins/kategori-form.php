@@ -34,7 +34,7 @@ if(isset($_POST['submit'])){
 <div class="container">
   <div class="row">
     <div class="col-12 p-3 bg-white">
-        <h3>Edit Kategori Hewan</h3>
+        <h3>Edit Kategori Bunga</h3>
         <form method="post">  
         <input type="hidden" name="id_kategori" value="<?= $id_kategori ?>;">
                 

@@ -24,13 +24,13 @@ if(isset($_POST['submit'])){
         echo "
             <script>
             alert('data berhasil diubah');
-            document.location.href = 'binatang.php';
+            document.location.href = 'bunga.php';
             </script>
         ";
     }else{
         echo " <script>
         alert('data gagal diubah');
-        document.location.href = 'binatang.php';
+        document.location.href = 'bunga.php';
         </script>
     ";
 
@@ -41,7 +41,7 @@ if(isset($_POST['submit'])){
 <div class="container">
   <div class="row">
     <div class="col-12 p-3 bg-white">
-        <h3>Edit Nama Hewan</h3>
+        <h3>Edit Nama Bunga</h3>
 
 
         <form method="post" enctype="multipart/form-data">
@@ -60,12 +60,13 @@ if(isset($_POST['submit'])){
 
 
             <div class="mb-3">
-                <label class="form-label">Nama Team</label>
+                <label class="form-label">Nama Bunga</label>
                 <input type="text" name="nama_binatang" class="form-control" value="<?= $binatang['nama_binatang']?>">
             </div>
             
-
+            
             <div class="mb-3">
+                <label class="form-label">Keterangan Bunga</label>
             <textarea class="form-control" name="keterangan_binatang" rows="3" placeholder="Keterangan Binatang"  required><?= $binatang['keterangan_binatang']?></textarea>
             </div>
 
@@ -76,7 +77,7 @@ if(isset($_POST['submit'])){
                 <input type="file" name="gambar" class="form-control">
             </div>
 
-            <a href="binatang.php" class="btn btn-success" >Kembali</a>
+            <a href="bunga.php" class="btn btn-success" >Kembali</a>
             <button type="submit" class="btn btn-primary" name="submit" >Simpan</button>
         </form>
     </div>

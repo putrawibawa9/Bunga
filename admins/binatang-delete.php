@@ -6,12 +6,12 @@ $id_binatang = $_GET['id_binatang'];
 if (hapusBinatang($id_binatang)>0){
     echo "<script>
             alert('data berhasil dihapus');
-            document.location.href = 'binatang.php';
+            document.location.href = 'bunga.php';
       </script>";
 }else{
   echo "  <script>
             alert('data gagal dihapus');
-            document.location.href = 'binatang.php';
+            document.location.href = 'bunga.php';
             </script>";
 }
 
