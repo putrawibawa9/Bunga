@@ -36,7 +36,7 @@ $binatang = query("SELECT * FROM binatang JOIN kategori ON binatang.id_kategori 
                 <div class="col-12 p-5">
                     <h1 class="display-4"> Dinda</h1>
                 
-                    <p align="justify">Versatile and driven IT enthusiast currently pursuing a Bachelor's degree in System Information at ITB STIKOM Bali, with a strong background in hospitality. Eager to pivot towards a tech-focused career, I possess a keen aptitude for learning and effective communication in English. Still learning in programming languages such as PHP , database management including MySQL, and web development technologies such as HTML, CSS, and JavaScript. My hands-on experience in the hospitality industry has honed my customer service, time management, and teamwork skills. Adept at collaborative problem-solving, I have undertaken small projects, including a landing page for an English Course, and a web application for a volunteer to enroll in that English Course. Fluent in English, I am equipped with the adaptability and teamwork essential for success in the tech domain.</p>
+                    <p align="justify">-ceritain tentang dirimu-</p>
                     <br>
                  
                 </div>
